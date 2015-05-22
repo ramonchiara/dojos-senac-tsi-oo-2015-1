@@ -1,0 +1,69 @@
+﻿* **Data:** 20/05/2015
+* **Horário:** 21:15
+* **Linguagem:** C#
+* **Problema:** O problema proposto foi o [Escrevendo no Celular](http://dojopuzzles.com/problemas/exibe/escrevendo-no-celular/):
+
+Um dos serviços mais utilizados pelos usuários de aparelhos celulares são os SMS (Short Message Service), que permite o envio de mensagens curtas (até 255 caracteres em redes GSM e 160 caracteres em redes CDMA).
+
+Para digitar uma mensagem em um aparelho que não possui um teclado QWERTY embutido é necessário fazer algumas combinações das 10 teclas numéricas do aparelho para conseguir digitar. Cada número é associado a um conjunto de letras como a seguir:
+
+Letras | Número
+-------|-------
+ABC | 2
+DEF | 3
+GHI | 4
+JKL | 5
+MNO | 6
+PQRS | 7
+TUV | 8
+WXYZ | 9
+Espaço | 0
+
+Desenvolva um programa que, dada uma mensagem de texto limitada a 255 caracteres, retorne a seqüência de números que precisa ser digitada. Uma pausa, para ser possível obter duas letras referenciadas pelo mesmo número, deve ser indicada como _.
+
+Por exemplo, para digitar "SEMPRE ACESSO O DOJOPUZZLES", você precisa digitar:
+
+77773367_7773302_222337777_777766606660366656667889999_9999555337777
+
+* **Formato:** Randori
+* **Participantes**: Alexandre Silva Grell, André Rodrigues de Jesus, Bruno Almir da Silva, Caio Batista Aguiar de Oliveira, Cristhian Alves de Souza, Daniel Neitzel Vieira, Dario Cruz da Costa, Edgar Martins Rodrigues Maia, Gustavo Henrique Monteiro da Silva, Gustavo Rios de Oliveira, Jessica Cristina de Oliveira, Jose Felipe Tavares Costa, Rafael Macedo Carignato, Romulo Rocha Martins Vieira e Ramon Chiara.
+* **Código**: [GitHub](https://github.com/ramonchiara/dojos-senac-tsi-oo-2015-1)
+
+Esse foi o primeiro Dojo da turma.
+Por isso, o professor utilizou o final da aula anterior (20:00 - 20:50) para explicar [o que é um Dojo](https://raw.github.com/ramonchiara/dojos-senac-tsi-oo-2015-1/master/Coding%20Dojo.png).
+
+No começo da prática, o problema foi apresentado e, antes de começar a sessão de codificação, foi feita uma análise do problema.
+Chegou-se à conclusão de que deveria haver a classe <code>Editor</code> com um método chamado <code>Digitar</code>.
+
+Os primeiros testes foram implementados pelo professor como forma de apresentar o desenvolvimento orientado a testes (TDD - Test Driven Development) no C#.
+Usamos *rounds* de 7 minutos e, após terminado o primeiro deles, os alunos foram se revezando.
+Como tentativa de minimizar distrações, enquanto a dupla codificava, a platéia foi discutindo o código procurando entendê-lo e, também, pensar nos próximos passos a serem feitos.
+
+Após quase uma hora de codificação, o problema estava prestes a ser resolvido por inteiro, mas o tempo se esgotou e uma retrospectiva foi feita.
+
+Veja algumas fotos:
+
+![Platéia e discussões.](https://raw.github.com/ramonchiara/dojos-senac-tsi-oo-2015-1/master/Dojo1/Fotos/20150520_213830.jpg)
+
+![Platéia e discussões.](https://raw.github.com/ramonchiara/dojos-senac-tsi-oo-2015-1/master/Dojo1/Fotos/20150520_220023.jpg)
+
+![Anotações feitas na discussão do problema e dupla codificando.](https://raw.github.com/ramonchiara/dojos-senac-tsi-oo-2015-1/master/Dojo1/Fotos/20150520_220100.jpg)
+
+![Dupla codificando.](https://raw.github.com/ramonchiara/dojos-senac-tsi-oo-2015-1/master/Dojo1/Fotos/20150520_220113.jpg)
+
+![Retrospectiva.](https://raw.github.com/ramonchiara/dojos-senac-tsi-oo-2015-1/master/Dojo1/Fotos/20150520_224323.jpg)
+
+**Retrospectiva:**
+
+* _O que deu certo? / O que aprendemos?_
+ * Ótima forma de trocar conhecimento / Interatividade. Mais pessoas solucionam os problemas melhor do que uma / Pessoal parecia interessado / Todos participaram / Trabalho em equipe para tentar resolver o problema. Tanto da dupla quanto dos que esperavam / Foi bom fazer em dupla / Desenvolvimento em equipe / Foi bom que interagimos com os colegas / Cooperação. Método passo-a-passo. Processo quase concluído / Foi legal "todo mundo" participar / Conversa com o pessoal sobre melhora de código.
+ * A forma de montar o programa / É um ótimo jeito de aprender / Novos conhecimentos de ferramentas de teste / Foi bom que vimos o quento precisamos estudar / Aprendizado sobre melhoria de tamanho de código.
+ * O projeto deu certo. Faltou alguns detalhes, mas, no fim, foi bom / Foi legal.
+
+* _O que pode melhorar? / O que dificultou o aprendizado?_
+ * Podia ser mais dinâmico / Pouca concentração / Seria melhor de várias duplas programando e depois discutir / Elaborar um programa mais curto.
+ * Poderia ter mais tempo (x2) / Pouco tempo para desenvolvimento
+ * A parte lógica deveria ter sido melhor estruturada pela dupla; uma folha com testes de mesa seria legal / Solução de problemas na lógica.
+ * As pessoas precisam ter menos medo de errar/criar.
+ * Quando criado um método que passou no teste, na troca da dupla, uma explicação da lógica implementada (pela pessoa que fez funcionar).
+ * Podia usar o Ruby.
